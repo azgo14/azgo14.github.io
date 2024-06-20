@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Zhai - Career Journey</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: monospace;
+            background-color: black;
+            color: white;
+            height: 100%;
+        }
+        .container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .content {
+            max-width: 64rem;
+            width: 100%;
+            z-index: 10;
+        }
+        h1 {
+            font-size: 2.25rem;
+            font-weight: bold;
+            margin-bottom: 2rem;
+            text-align: center;
+            text-shadow: 2px 2px #ff00ff, -2px -2px #00ffff;
+        }
+        .journey {
+            text-align: center;
+            margin-bottom: 3rem;
+            border: 1px solid white;
+            padding: 1.5rem;
+            background-color: rgba(255,255,255,0.1);
+        }
+        .journey p {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .journey img {
+            width: 3rem;
+            height: 3rem;
+            object-fit: contain;
+            margin: 0 0.5rem;
+        }
+        .description {
+            font-size: 1.125rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            font-style: italic;
+            color: #a0a0a0;
+        }
+        @media (min-width: 768px) {
+            h1 { font-size: 3.75rem; }
+            .journey p { font-size: 1.5rem; }
+            .description { font-size: 1.25rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Andrew Zhai</h1>
+            <div class="journey">
+                <p>
+                    <span style="color: #fbbf24;">Studied at</span>
+                    <img src="https://i.pinimg.com/564x/2b/97/8b/2b978bce3ed90397df7f44bd157d4b4b.jpg" alt="Berkeley logo">
+                    <span style="color: #60a5fa;">and</span>
+                    <img src="https://identity.stanford.edu/wp-content/uploads/sites/3/2020/07/block-s-right.png" alt="Stanford logo">
+                    <span style="color: #ec4899;">worked at</span>
+                    <img src="https://seeklogo.com/images/P/pinterest-logo-8561DDA2E1-seeklogo.com.png" alt="Pinterest logo">
+                </p>
+                <p>
+                    <span style="color: #4ade80;">now building</span>
+                    <a href="https://aideate.ai" target="_blank" rel="noopener noreferrer">
+                        <img src="https://cdn.getro.com/companies/2fd869c6-8c65-59fe-b99b-32c95d50f931" alt="Aideate logo">
+                    </a>
+                    <span style="color: #a78bfa;">the future.</span>
+                </p>
+            </div>
+            <p class="description">From Berkeley to Stanford, Pinterest to startup: Pushing boundaries in AI and tech.</p>
+        </div>
+    </div>
+</body>
+</html>
