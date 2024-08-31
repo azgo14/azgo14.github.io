@@ -1,0 +1,220 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Zhai - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.2;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 12px;
+        }
+        .container {
+            display: flex;
+            gap: 30px;
+        }
+        .left-column {
+            flex: 1;
+        }
+        .right-column {
+            flex: 3;
+        }
+        h1 {
+            color: #000;
+            margin-bottom: 0;
+            font-size: 24px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #333;
+            padding-bottom: 3px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .subtitle {
+            color: #0077b5;
+            margin-top: 0;
+            font-size: 14px;
+        }
+        .contact-info {
+            margin-bottom: 15px;
+            font-size: 12px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 5px;
+        }
+        .job-title, .degree, .publication-title {
+            font-weight: bold;
+        }
+        .company, .school, .publication-venue {
+            color: #0077b5;
+        }
+        .date-location {
+            color: #666;
+            font-style: italic;
+        }
+        ul {
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+        .publication {
+            margin-bottom: 20px;
+        }
+        .publication p {
+            margin: 0;
+            line-height: 1.1;
+        }
+        .publication-authors {
+            font-style: italic;
+        }
+        .publication-link {
+            color: #666;
+            font-size: 10px;
+        }
+        .gpa {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ANDREW ZHAI</h1>
+        <p class="subtitle">Cofounder, CTO @ Aideate Inc</p>
+        <div class="contact-info">
+            <span>1-949-439-1866</span>
+            <span>andrewzhai14@gmail.com</span>
+            <span>https://www.linkedin.com/in/andrew-zhai-2796ab34/</span>
+            <span>Belmont CA</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="left-column">
+            <section>
+                <h2>SELECT PUBLICATIONS</h2>
+                <div class="publication">
+                    <p class="publication-title">Classification is a strong baseline for deep learning</p>
+                    <p class="publication-venue">BMVC 2019</p>
+                    <p class="publication-authors">Andrew Zhai, Hao-yu Wu</p>
+                    <p class="publication-link">https://arxiv.org/abs/1811.12649</p>
+                </div>
+                <div class="publication">
+                    <p class="publication-title">Visual Discovery at Pinterest</p>
+                    <p class="publication-venue">WWW 2017</p>
+                    <p class="publication-authors">Andrew Zhai, Dmitry Kislyuk, Yushi Jing, Michael Feng, Eric Tzeng, Jeff Donahue, Yue Li Dua, Trevor Darrell</p>
+                    <p class="publication-link">https://arxiv.org/abs/1702.04680</p>
+                </div>
+                <div class="publication">
+                    <p class="publication-title">Learning a unified embedding for visual search at Pinterest</p>
+                    <p class="publication-venue">KDD 2019</p>
+                    <p class="publication-authors">Andrew Zhai, Hao-yu Wu, Eric Tzeng, Dong Huk Park, Charles Rosenberg</p>
+                    <p class="publication-link">https://arxiv.org/abs/1908.01707</p>
+                </div>
+                <div class="publication">
+                    <p class="publication-title">Transact: Transformer-based realtime user action model for recommendation at Pinterest</p>
+                    <p class="publication-venue">KDD 2023</p>
+                    <p class="publication-authors">Xue Xia, Pong Eksombatchai, Nikil Pancha, Dhruuil Badani, Po-Wei Wang, Neng Gu, Saurabh Joshi, Nazanin Farahbod, Zhiyuan Zhang, Andrew Zhai</p>
+                    <p class="publication-link">https://dl.acm.org/doi/abs/10.1145/3580305.3599918</p>
+                </div>
+                <div class="publication">
+                    <p class="publication-title">Pinnerformer: Sequence modeling for user representation at Pinterest</p>
+                    <p class="publication-venue">KDD 2022</p>
+                    <p class="publication-authors">Nikil Pancha, Andrew Zhai, Jure Leskovec, Charles Rosenberg</p>
+                    <p class="publication-link">https://dl.acm.org/doi/10.1145/3534678.3539156</p>
+                </div>
+                <div class="publication">
+                    <p class="publication-title">Visual search at pinterest</p>
+                    <p class="publication-venue">KDD 2015</p>
+                    <p class="publication-authors">Yushi Jing, David Liu, Dmitry Kislyuk, Andrew Zhai, Jiajing Xu, Jeff Donahue, Sarah Tavel</p>
+                    <p class="publication-link">https://dl.acm.org/doi/abs/10.1145/2783258.2788621</p>
+                </div>
+                <div class="publication">
+                    <p class="publication-title">Billion-scale pretraining with vision transformers for multi-task visual respresentations</p>
+                    <p class="publication-venue">WACV 2022</p>
+                    <p class="publication-authors">Josh Beal, Hao-yu Wu, Dong Huk Park, Andrew Zhai, Dmitry Kislyuk</p>
+                    <p class="publication-link">https://arxiv.org/abs/2108.05887</p>
+                </div>
+                <div class="publication">
+                    <p class="publication-title">Itemsage: Learning product embeddings for shopping recommendations at pinterest</p>
+                    <p class="publication-venue">KDD 2022</p>
+                    <p class="publication-authors">Paul Baltescu, Haoyu Chen, Nikil Pancha, Andrew Zhai, Jure Leskovec, Charles Rosenberg</p>
+                    <p class="publication-link">https://dl.acm.org/doi/abs/10.1145/3534678.3539170</p>
+                </div>
+
+            </section>
+        </div>
+        <div class="right-column">
+            <section>
+                <h2>EXPERIENCE</h2>
+                <div class="experience-item">
+                    <p><span class="job-title">Co-Founder, CTO</span> - <span class="company">Aideate Inc</span></p>
+                    <p class="date-location">04/2023 - Present | San Mateo, CA</p>
+                    <p>Applied AI lab building generative AI technology to power next-gen gaming</p>
+                    <ul>
+                        <li>Technical lead to build an NPC agent framework for gaming studios</li>
+                        <li>Research lead for ML algorithms for NPC agents</li>
+                        <li>Raised preseed of $2.18m for $20m valuation</li>
+                        <li>$1m+ annual recurring revenue</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <p><span class="job-title">Distinguished Engineer, Advanced Technology Group</span> - <span class="company">Pinterest</span></p>
+                    <p class="date-location">02/2014 - 03/2023 | San Francisco, CA</p>
+                    <ul>
+                        <li>Top individual contributor level at Pinterest. One of four engineers (0.3%) out of 1200+ engineers.</li>
+                        <li>Set and executed the technical direction for company wide strategic ML initiatives and led cross-organizational teams of 100+ ML engineers impacting the engagement/growth/revenue funnels.</li>
+                        <li>Uber TL of ML Foundation, Personalization, and Advanced Technology Group (applied ai lab). Initiatives were cross cutting across the company including:</li>
+                        <li><u>ML Foundation</u>: rewriting the ML training and serving stack across the company to unify under our PyTorch-based framework. Efficiency improvements enabled us to serve a 100x larger recommendation model leading to wins such as a +16% Homefeed engagement increase</li>
+                        <li><u>Personalization</u>: algorithmic improvements towards user and content understanding across the company. Effects including sequence modeling for ranking, notification delivery optimization via ML, learning embeddings for all modalities (image, text, graph, user, content, search queries, etc), and taxonomy modeling</li>
+                        <li><u>Advance Technology Group</u>: the applied ai lab for Pinterest developing algorithmic improvements and new ai powered products. Algorithmic improvements spanned across computer vision, generative AI (diffusion models), graph neural networks, and sequence modeling.</li>
+                        <li>More Publications: https://dblp.org/pid/141/1271.html</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <p><span class="job-title">Research Assistant</span> - <span class="company">UC Berkeley</span></p>
+                    <p class="date-location">09/2012 - 06/2014 | Berkeley CA</p>
+                    <ul>
+                        <li>Develop algorithms using Computer Vision and Machine Learning techniques in order to geolocate images within large-scale outdoor environments as a part of the DARPA-funded Finder program.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <p><span class="job-title">Software Engineering Intern</span> - <span class="company">Google</span></p>
+                    <p class="date-location">05/2013 - 08/2013 | Mountain View</p>
+                    <ul>
+                        <li>Led search ranking experiments to optimize for revenue and engagement for HotelFinder, a product under Google Travel</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <p><span class="job-title">Software Engineer Intern</span> - <span class="company">Google</span></p>
+                    <p class="date-location">06/2012 - 08/2012 | Mountain View, California</p>
+                    <ul>
+                        <li>Developed an i18n date parsing extractor for hotel emails for HotelFinder, a product under Google Travel</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>EDUCATION</h2>
+                <div class="education-item">
+                    <p><span class="degree">Master's Degree, Computer Science</span> - <span class="school">Stanford University</span> <span class="gpa">GPA: 3.9 / 4.0</span></p>
+                    <p class="date-location">01/2015 - 12/2017</p>
+                </div>
+                <div class="education-item">
+                    <p><span class="degree">Bachelor's Degree, Electrical Engineering & Computer Science</span> - <span class="school">University of California, Berkeley</span> <span class="gpa">GPA: 3.89 / 4.0</span></p>
+                    <p class="date-location">01/2010 - 12/2013</p>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
